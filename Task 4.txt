@@ -1,0 +1,97 @@
+Task 4: Password Security & Authentication Analysis 
+
+1. How passwords are stored
+Websites do not save your real password.
+Instead, they save a hash.
+Hashing
+Hashing changes your password into a long unreadable code.
+It works in one direction only.
+The original password cannot be got back.
+This is the safe method.
+ Example:
+Password: hello123
+Stored value: 8cb2237d0679ca88db6464eac60da963
+Encryption
+Encryption also hides data.
+But it can be opened again using a key.
+If hackers get the key, passwords are exposed.
+That’s why hashing is used for passwords, not encryption.
+
+2. Types of password hashes
+MD5
+Very old
+Very fast
+Easy to crack
+Not safe today
+SHA-1
+Better than MD5
+But now broken  Not recommended
+bcrypt
+Slow and strong
+Adds extra protection (salt)
+Hard to crack
+ Best and most secure
+
+3. Generating password hashes
+A password hash can be created using:
+Online tools
+Linux commands
+Programming languages
+Example:
+Password: admin
+MD5 hash: 21232f297a57a5a743894a0e4a801fc3
+
+4. Cracking weak passwords
+Hackers use wordlists. A wordlist is a file that contains common passwords like:
+123456
+password
+admin
+welcome
+They convert each word into a hash and compare it. If the hash matches → password is cracked.
+Weak passwords can be cracked in seconds
+.
+5. Brute force vs Dictionary attack
+Brute force attack
+Tries every possible password
+Very slow
+Example: aaa → aab → aac → ...
+Dictionary attack
+Uses common passwords from a list
+Much faster
+Very successful on weak passwords
+
+6. Why weak passwords fail
+Weak passwords:
+Are short
+Use common words
+Have no symbols
+Are reused many times
+Examples:
+123456
+password
+admin123
+Easy for hackers to guess.
+
+7. Multi-Factor Authentication (MFA)
+MFA means more than one security step.
+Example:
+Password
+AND
+OTP on phone
+OR
+Fingerprint / Face ID
+ Even if someone steals your password, they still can’t log in.
+
+8. Recommendations for strong authentication
+Strong password tips
+At least 12 characters
+Use letters, numbers, and symbols
+Avoid your name or date of birth
+Use different passwords for different sites
+Example of strong password:
+Sa!pr@d#2026$
+Extra security
+Use bcrypt
+Turn on MFA
+Lock account after many wrong tries
+Use password managers
