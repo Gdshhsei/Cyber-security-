@@ -1,0 +1,59 @@
+Task 5: Malware Types & Behavior Analysis
+
+1. Different types of malware
+Malware means malicious software that harms a computer or steals data.
+Virus
+Attaches to files and spreads when the file is opened.
+Example: infects USB files.
+Worm
+Spreads by itself through networks without user action.
+Example: spreads through Wi-Fi or LAN.
+Trojan
+Looks like a normal or useful program but is harmful inside.
+Example: fake games or cracked software.
+Ransomware
+Locks or encrypts files and asks money to unlock them.
+Example: “Pay to get your files back”.
+
+2. Upload malware hashes to VirusTotal
+VirusTotal is an online tool that checks files or file hashes using many antivirus engines.
+Instead of uploading real malware, we upload the hash value (MD5/SHA).
+VirusTotal tells whether the file is safe or malicious
+.
+3. Analyze detection reports
+From VirusTotal report:
+Shows how many antivirus engines detected the file.
+Example: 45/70 engines detected malware → Very dangerous.
+Shows malware type like Trojan, Worm, or Ransomware.
+
+4. Behavior indicators of malware
+Malware usually shows these signs:
+Computer becomes slow
+Unknown programs start automatically
+High CPU or internet usage
+Files get deleted or encrypted
+Antivirus gets disabled
+
+5. Malware lifecycle
+Malware works in steps:
+Creation – Hacker creates malware
+Delivery – Sent through email, USB, or websites
+Execution – User opens the file
+Infection – Malware spreads in system
+Damage – Data theft, file deletion, spying, or ransom
+
+6. How malware spreads
+Malware spreads through:
+Email attachments
+Fake downloads and cracked software
+USB drives
+Infected websites
+Network sharing
+
+7. Prevention methods
+We can prevent malware by:
+Installing antivirus software
+Updating OS and software regularly
+Avoiding unknown links and emails
+Not using pirated software
+Using firewall and strong passwords
