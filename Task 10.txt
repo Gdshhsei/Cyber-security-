@@ -1,0 +1,40 @@
+Task10:Firewall Configuration & Testing (Simple Language)
+
+1. Learn firewall concepts
+A firewall is a security tool that protects a computer or network.
+It allows safe traffic and blocks unsafe traffic.
+
+2. Configure rules
+Firewall rules tell the firewall what to allow and what to block.
+Example:
+Allow internet browsing, block unknown connections.
+
+3. Allow / deny ports
+Ports are like doors for network services.
+Allow port → service works
+Block port → service stops
+This keeps the system safe.
+
+4. Test connectivity
+After setting rules, check if the internet or service is working.
+If allowed → it connects
+If blocked → it does not connect
+
+5. Observe logs
+Logs are records of firewall activity.
+They show:
+Which connections were allowed
+Which were blocked
+
+6. Block malicious IP
+If a computer is attacking or behaving badly, its IP address is blocked so it cannot connect again.
+
+7. Document rules
+Write down all firewall rules.
+This helps to remember what was allowed or blocked.
+
+8. Explain impact
+Firewall:
+Protects the system
+Stops hackers and malware
+If rules are wrong, normal internet may stop working.
